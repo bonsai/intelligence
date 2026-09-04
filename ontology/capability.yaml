@@ -1,0 +1,30 @@
+version: 0.1.0
+namespace: bonsai.capability
+
+Capability:
+  definition: A capability available to an intelligent system.
+  types:
+    - perception
+    - retrieval
+    - memory
+    - reasoning
+    - prediction
+    - learning
+    - planning
+    - decision
+    - action
+    - communication
+    - tool_use
+
+Provider:
+  definition: Implementation that supplies one or more capabilities.
+  examples:
+    - deterministic_rule_engine
+    - database
+    - BQML
+    - LLM
+    - GitHub_API
+    - gh-aw
+
+Principle:
+  definition: A capability must not be conflated with its implementation provider.
