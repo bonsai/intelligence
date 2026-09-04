@@ -1,0 +1,36 @@
+version: 0.1.0
+namespace: bonsai.relation
+
+Relation:
+  definition: Typed connection between two entities, observations, concepts, or events.
+  types:
+    - supports
+    - contradicts
+    - causes
+    - depends_on
+    - implements
+    - derives_from
+    - similar_to
+    - contains
+    - precedes
+    - follows
+    - observes
+    - acts_on
+    - evaluates
+    - improves
+
+Evidence:
+  definition: Traceable support for a claim or inference.
+  fields:
+    - source
+    - observation
+    - timestamp
+    - confidence
+    - provenance
+
+Uncertainty:
+  fields:
+    - confidence
+    - ambiguity
+    - missing_information
+    - alternatives
