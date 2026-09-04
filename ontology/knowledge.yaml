@@ -1,0 +1,27 @@
+version: 0.1.0
+namespace: bonsai.knowledge
+
+Knowledge:
+  types:
+    - Fact
+    - Concept
+    - Rule
+    - Model
+    - Hypothesis
+    - Procedure
+    - Experience
+
+Fact:
+  definition: Proposition supported by sufficient evidence for its intended use.
+Concept:
+  definition: Named abstraction representing a class or idea.
+Rule:
+  definition: Explicit transformation or constraint used for inference or action.
+Model:
+  definition: Representation that approximates relationships or behavior in a domain.
+Hypothesis:
+  definition: Provisional proposition awaiting stronger evidence.
+Procedure:
+  definition: Reusable sequence of operations for achieving an outcome.
+Experience:
+  definition: Persisted observation of an interaction, decision, action, or outcome.
