@@ -1,0 +1,38 @@
+version: 0.1.0
+namespace: bonsai.agency
+
+Agency:
+  definition: Capability to pursue goals by selecting and initiating actions.
+  requires:
+    - Goal
+    - State
+    - Decision
+    - Action
+    - Feedback
+
+Decision:
+  fields:
+    - goal
+    - alternatives
+    - evidence
+    - constraints
+    - uncertainty
+    - selected_action
+    - expected_outcome
+
+Action:
+  fields:
+    - actor
+    - target
+    - operation
+    - preconditions
+    - expected_effect
+    - actual_effect
+
+Feedback:
+  fields:
+    - action
+    - outcome
+    - evaluation
+    - timestamp
+    - evidence
