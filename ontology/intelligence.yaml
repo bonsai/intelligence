@@ -1,0 +1,56 @@
+version: 0.1.0
+namespace: bonsai.intelligence
+
+Intelligence:
+  definition: >-
+    Capacity to observe state, transform information into knowledge,
+    discover relations, reason under uncertainty, choose actions toward goals,
+    act, learn from feedback, and improve subsequent decisions.
+  components:
+    - Perception
+    - Knowledge
+    - Memory
+    - RelationDiscovery
+    - Reasoning
+    - Uncertainty
+    - Goal
+    - Decision
+    - Agency
+    - Action
+    - Feedback
+    - Learning
+
+Perception:
+  definition: Acquisition and interpretation of observations from a world or system.
+Knowledge:
+  definition: Structured information available for reasoning and action.
+Memory:
+  definition: Persisted experience, state, observations, decisions, or outcomes.
+RelationDiscovery:
+  definition: Identification of meaningful relations among entities or observations.
+Reasoning:
+  definition: Transformation of knowledge and evidence into inferences.
+Uncertainty:
+  definition: Explicit representation of incomplete, ambiguous, or probabilistic knowledge.
+Goal:
+  definition: Desired state or objective against which decisions are evaluated.
+Decision:
+  definition: Selection among possible actions given goals, knowledge, evidence, and uncertainty.
+Agency:
+  definition: Capacity to select and initiate actions toward goals.
+Action:
+  definition: An operation that changes or queries the world or system state.
+Feedback:
+  definition: Observation of action consequences used to evaluate decisions.
+Learning:
+  definition: Change in knowledge, policy, or capability caused by feedback and experience.
+
+IntelligenceLoop:
+  - Perception
+  - Knowledge
+  - RelationDiscovery
+  - Reasoning
+  - Decision
+  - Action
+  - Feedback
+  - Learning
