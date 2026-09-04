@@ -1,0 +1,24 @@
+version: 0.1.0
+namespace: bonsai.learning
+
+Learning:
+  definition: Persistent improvement caused by experience and feedback.
+  modes:
+    - update_knowledge
+    - update_model
+    - update_policy
+    - update_memory
+    - update_representation
+
+LearningEvent:
+  fields:
+    - prior_state
+    - action
+    - outcome
+    - evidence
+    - error
+    - update
+    - resulting_state
+
+Criterion:
+  definition: Measure used to determine whether learning improved performance.
