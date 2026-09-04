@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/bonsai/intelligence/schema/intelligence.json",
+  "title": "Intelligence",
+  "type": "object",
+  "required": ["goal", "state", "evidence", "decision", "action", "feedback"],
+  "properties": {
+    "goal": {"type": "string"},
+    "state": {"type": "object"},
+    "evidence": {"type": "array", "items": {"type": "object"}},
+    "decision": {"type": "object"},
+    "action": {"type": "object"},
+    "feedback": {"type": "object"},
+    "uncertainty": {"type": "object"}
+  }
+}
